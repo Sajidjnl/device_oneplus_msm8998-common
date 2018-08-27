@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode;
+package com.lluvia.pocketmode;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
+import com.android.internal.content.BroadcastReceiver;
+import com.android.internal.content.Context;
+import com.android.internal.content.Intent;
+import com.android.internal.util.Log;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 

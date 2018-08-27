@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2016 The CyanogenMod Project
  * Copyright (c) 2018 The LineageOS Project
+ * Copyright (C) 2018 The LLuvia Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,20 +16,16 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode;
+package com.lluvia.pocketmode;
 
-import android.content.Context;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
-import android.util.Log;
+import com.android.internal.content.Context;
+import com.android.internal.hardware.Sensor;
+import com.android.internal.hardware.SensorEvent;
+import com.android.internal.hardware.SensorEventListener;
+import com.android.internal.hardware.SensorManager;
+import com.android.internal.util.Log;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import com.android.internal.util.FileUtils;
 
 public class ProximitySensor implements SensorEventListener {
 

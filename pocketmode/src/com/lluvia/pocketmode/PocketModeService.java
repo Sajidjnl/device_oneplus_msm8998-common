@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode;
+package com.lluvia.pocketmode;
 
-import android.app.Service;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.IBinder;
-import android.util.Log;
+import com.android.internal.app.Service;
+import com.android.internal.content.BroadcastReceiver;
+import com.android.internal.content.Context;
+import com.android.internal.content.Intent;
+import com.android.internal.content.IntentFilter;
+import com.android.internal.os.IBinder;
+import com.android.internal.util.Log;
 
 public class PocketModeService extends Service {
     private static final String TAG = "PocketModeService";
